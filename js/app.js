@@ -10,7 +10,7 @@ showOnScreen();
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-//hewsss
+  
   let obj = {
     goal: todoInput.value,
     done: false,
